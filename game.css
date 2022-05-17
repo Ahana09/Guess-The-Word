@@ -1,0 +1,45 @@
+body
+{
+	background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Concert One', cursive;
+font-size: 25px;
+}
+
+	.login_div , .login_div
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: rgba(255, 149, 230, 0.87);
+border-radius: 10px;
+border-top: 10px solid rgb(202, 15, 30);
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.myfont {
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="game.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<h2 id="player1_name"> Player 1 Name</h2> <span id="player1_score"> </span>
+
+	<br> 
+	<br> 
+	<h2 id="player2_name"> Player 2 Name </h2> <span id="player2_score"> </span> 
+	<center>
+		<h2 style="color: white;" class="myfont">Guess The Word!
+		</h2>
+         <h3 id="QuestionTurn">  Question Turn </h3>
+		 <h3 id="AnswerTurn"> Answer Turn </h3> 
+		 <div id="output" class="col-lg-6"> </div>
+
+
+		<br>
+		<br>
+
+		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+	
+
+		<br>
+
+		<input type="text" id="word" class="form-control" placeholder="Please Type Word"> 
+		<br> 
+		<button onclick="send()" class="btn btn-danger" style="width : 40%"> Send </button>
+
+	</center>
+</div>
+
+<script src="gamepg.js"></script>
+</body>
+</html>
